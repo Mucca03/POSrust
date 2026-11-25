@@ -1,0 +1,16 @@
+[package]
+name = "pos-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "Dominio puro del POS: dinero, ticket, impuestos, descuentos, stock y cierre"
+
+[dependencies]
+rust_decimal.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+rust_decimal_macros = "1"
+proptest = "1"

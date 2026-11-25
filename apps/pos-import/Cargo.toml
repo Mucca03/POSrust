@@ -1,0 +1,12 @@
+[package]
+name = "pos-import"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "Importador y verificador de respaldos MySQL compatibles"
+
+[dependencies]
+pos-store = { path = "../../crates/pos-store" }
+serde_json = "1"
